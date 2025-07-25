@@ -42,21 +42,17 @@ cd enrollment-backend
 
 
 ### 2. Install Dependencies
-bash
-Copy code
+
 npm install
 
 ### 3. Set Up Environment Variables
 Create a .env file in the root directory:
 
-env
-Copy code
 PORT=8000
 MONGO_URL=mongodb://localhost:27017/enrollmentDB
 
 ### 4. Run the Server
 
-Copy code
 npm run dev
 The server will start at: http://localhost:8000
 
